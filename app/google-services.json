@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "494935682237",
+    "project_id": "yccemedia-c3b16",
+    "storage_bucket": "yccemedia-c3b16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494935682237:android:a4124a64c46c1eae505bd4",
+        "android_client_info": {
+          "package_name": "com.jivesh.media"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494935682237-fppnfaud91nvk9d6o8j6anv3ooimfc7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI32ufPHzwjWwgPaPENzwoRYZ1bvzdUic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494935682237-fppnfaud91nvk9d6o8j6anv3ooimfc7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494935682237:android:e414ed026c0ed5ec505bd4",
+        "android_client_info": {
+          "package_name": "com.jivesh.miniproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494935682237-fppnfaud91nvk9d6o8j6anv3ooimfc7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI32ufPHzwjWwgPaPENzwoRYZ1bvzdUic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494935682237-fppnfaud91nvk9d6o8j6anv3ooimfc7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

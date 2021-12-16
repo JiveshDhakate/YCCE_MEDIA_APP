@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfile"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/purple_500"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="Update Profile"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/name_up_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Name"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/dep_up_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Department"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/bio_up_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Bio"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/collegeId_up_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="College id"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_up"
+        android:textColor="@color/white"
+        android:text="Save Profile"
+        android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageycce"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ycce"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/txtsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageycce"
+        android:background="@color/purple_500"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/signup_emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtsignup"
+        android:layout_marginTop="100dp"
+        android:height="30dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/signup_passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_emailEt"
+        android:height="30dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/confirm_signup_passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_passwordEt"
+        android:height="30dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+    <CheckBox
+        android:id="@+id/signup_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:layout_below="@id/confirm_signup_passwordEt"/>
+
+    <Button
+        android:id="@+id/siginBtn"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_checkbox"
+        android:layout_centerInParent="true"
+        android:text="Sign UP" />
+    <Button
+        android:id="@+id/signup_loginBtn"
+        android:text="LOG In"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:layout_below="@id/siginBtn"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/signup_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_loginBtn"
+        android:layout_marginTop="10dp"
+        android:indeterminate="true" />
+</RelativeLayout>

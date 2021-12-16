@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Profile"
+        android:icon="@drawable/ic_person"
+        app:showAsAction="always"
+        android:id="@+id/profile_bottom"/>
+
+    <item android:title="Notifications"
+        android:icon="@drawable/ic_rate_review"
+        app:showAsAction="always"
+        android:id="@+id/ask_bottom"/>
+
+    <item android:title="Request"
+        android:icon="@drawable/ic_queue"
+        app:showAsAction="always"
+        android:id="@+id/queue_bottom"/>
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_person"
+        app:showAsAction="always"
+        android:id="@+id/home_bottom"/>
+
+</menu>

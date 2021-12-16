@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProfile"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardCornerRadius="75dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cp_Iv_f1"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:background="@drawable/ic_person"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/name_cp_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Name"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/dep_cp_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Department"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/bio_cp_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Bio"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/collegeId_cp_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="College id"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cp"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:text="Save Profile"
+        android:textSize="20sp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pgrb_cp"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</LinearLayout>
